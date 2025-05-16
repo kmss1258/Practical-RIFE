@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 # folder2webp.py
+
+#python folder2webp.py \
+#  --src temp_result \
+#  --out result--long.webp \
+#  --fps 15 \
+#  --size 300 \
+#  --radius 110
+
+
 import os, re, cv2, numpy as np, imageio.v3 as iio, argparse
 
 def images2webp(images, wfp, **kwargs):          # _MS_250311
